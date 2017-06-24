@@ -1,0 +1,103 @@
+Marcs-MacBook-Air:htdocs marceliotstein$ composer create-project acquia/reservoir-project reservoir --stability=alpha
+Installing acquia/reservoir-project (1.0.0-alpha1)
+  - Installing acquia/reservoir-project (1.0.0-alpha1) Downloading: 100%         
+Created project in reservoir
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 57 installs, 0 updates, 0 removals
+  - Installing drupal-composer/drupal-scaffold (2.3.0) Downloading: 100%         
+  - Installing composer/installers (v1.3.0) Downloading: 100%         
+  - Installing cweagans/composer-patches (1.6.1) Downloading: 100%         
+No patches supplied.
+Gathering patches for dependencies. This might take a minute.
+  - Installing psr/http-message (1.0.1) Loading from cache
+  - Installing paragonie/random_compat (v2.0.10) Downloading: 100%         
+  - Installing lcobucci/jwt (3.2.1) Downloading: 100%         
+  - Installing league/event (2.1.2) Downloading: 100%         
+  - Installing league/oauth2-server (5.1.3) Downloading: 100%         
+  - Installing zendframework/zend-stdlib (3.1.0) Loading from cache
+  - Installing zendframework/zend-escaper (2.5.2) Loading from cache
+  - Installing zendframework/zend-feed (2.8.0) Downloading: 100%         
+  - Installing zendframework/zend-diactoros (1.4.0) Downloading: 100%         
+  - Installing twig/twig (v1.34.3) Downloading: 100%         
+  - Installing symfony/polyfill-mbstring (v1.4.0) Downloading: 100%         
+  - Installing symfony/translation (v2.8.22) Downloading: 100%         
+  - Installing ircmaxell/password-compat (v1.0.4) Loading from cache
+  - Installing symfony/polyfill-php55 (v1.4.0) Downloading: 100%         
+  - Installing symfony/polyfill-php54 (v1.4.0) Downloading: 100%         
+  - Installing symfony/http-foundation (v2.8.22) Downloading: 100%         
+  - Installing symfony/psr-http-message-bridge (v1.0.0) Downloading: 100%         
+  - Installing symfony/polyfill-iconv (v1.4.0) Downloading: 100%         
+  - Installing psr/log (1.0.2) Loading from cache
+  - Installing symfony/debug (v2.8.22) Downloading: 100%         
+  - Installing symfony/event-dispatcher (v2.8.22) Downloading: 100%         
+  - Installing symfony/http-kernel (v2.8.22) Downloading: 100%         
+  - Installing symfony/routing (v2.8.22) Downloading: 100%         
+  - Installing symfony-cmf/routing (1.4.1) Downloading: 100%         
+  - Installing stack/builder (v1.0.4) Loading from cache
+  - Installing masterminds/html5 (2.2.2) Loading from cache
+  - Installing guzzlehttp/psr7 (1.4.2) Downloading: 100%         
+  - Installing guzzlehttp/promises (v1.3.1) Loading from cache
+  - Installing guzzlehttp/guzzle (6.3.0) Downloading: 100%         
+  - Installing doctrine/lexer (v1.0.1) Loading from cache
+  - Installing egulias/email-validator (1.2.14) Downloading: 100%         
+  - Installing easyrdf/easyrdf (0.9.1) Loading from cache
+  - Installing doctrine/inflector (v1.1.0) Loading from cache
+  - Installing doctrine/collections (v1.4.0) Downloading: 100%         
+  - Installing doctrine/cache (v1.6.1) Loading from cache
+  - Installing doctrine/annotations (v1.2.7) Loading from cache
+  - Installing doctrine/common (v2.7.2) Downloading: 100%         
+  - Installing composer/semver (1.4.2) Loading from cache
+  - Installing asm89/stack-cors (1.1.0) Downloading: 100%         
+  - Installing symfony/yaml (v2.8.22) Downloading: 100%         
+  - Installing symfony/validator (v2.8.22) Downloading: 100%         
+  - Installing symfony/serializer (v2.8.22) Downloading: 100%         
+  - Installing symfony/process (v2.8.22) Downloading: 100%         
+  - Installing symfony/dependency-injection (v2.8.22) Downloading: 100%         
+  - Installing symfony/console (v2.8.22) Downloading: 100%         
+  - Installing symfony/polyfill-apcu (v1.4.0) Downloading: 100%         
+  - Installing symfony/class-loader (v2.8.22) Downloading: 100%         
+  - Installing drupal/core (8.3.4) Downloading: 100%         
+  - Applying patches for drupal/core
+    https://www.drupal.org/files/issues/2885755-2-8.3.x.patch (Fix toolbar active link handling)
+    https://www.drupal.org/files/issues/2886861-2.patch (field.storage.node.body belongs in 'standard' install profile, not in the 'node' module)
+
+  - Installing drupal/simple_oauth (2.0.0-rc2) Downloading: 100%         
+  - Applying patches for drupal/simple_oauth
+    https://www.drupal.org/files/issues/2883862-11.patch (simple_oauth cannot be installed in an install profile without also installing simple_oauth_extras)
+
+  - Installing drupal/jsonapi (1.0.0) Downloading: 100%         
+  - Installing drupal/schemata (dev-1.x 8325d17) Cloning 8325d172e1 from cache
+  - Applying patches for drupal/schemata
+    https://www.drupal.org/files/issues/2870904-22.patch (Add entity type only schema routes for entity types with bundles)
+
+  - Installing drupal/openapi (dev-1.x e8a82f8) Cloning e8a82f87db from cache
+  - Installing acquia/reservoir (1.0.0-alpha1) Downloading: 100%         
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+lcobucci/jwt suggests installing mdanter/ecc (Required to use Elliptic Curves based algorithms.)
+league/oauth2-server suggests installing indigophp/hash-compat (Polyfill for hash_equals function for PHP 5.5)
+zendframework/zend-feed suggests installing zendframework/zend-cache (Zend\Cache component, for optionally caching feeds between requests)
+zendframework/zend-feed suggests installing zendframework/zend-db (Zend\Db component, for use with PubSubHubbub)
+zendframework/zend-feed suggests installing zendframework/zend-http (Zend\Http for PubSubHubbub, and optionally for use with Zend\Feed\Reader)
+zendframework/zend-feed suggests installing zendframework/zend-servicemanager (Zend\ServiceManager component, for easily extending ExtensionManager implementations)
+zendframework/zend-feed suggests installing zendframework/zend-validator (Zend\Validator component, for validating email addresses used in Atom feeds and entries ehen using the Writer subcomponent)
+symfony/translation suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/browser-kit ()
+symfony/http-kernel suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/finder ()
+symfony/http-kernel suggests installing symfony/var-dumper ()
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+easyrdf/easyrdf suggests installing ml/json-ld (~1.0)
+symfony/validator suggests installing symfony/config ()
+symfony/validator suggests installing symfony/expression-language (For using the 2.4 Expression validator)
+symfony/validator suggests installing symfony/intl ()
+symfony/validator suggests installing symfony/property-access (For using the 2.4 Validator API)
+symfony/serializer suggests installing symfony/config (For using the XML mapping loader.)
+symfony/serializer suggests installing symfony/property-access (For using the ObjectNormalizer.)
+symfony/dependency-injection suggests installing symfony/config ()
+symfony/dependency-injection suggests installing symfony/expression-language (For using expressions in service container configuration)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+Writing lock file
+Generating autoload files
+ Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100% Downloading: 100%Marcs-MacBook-Air:htdocs marceliotstein$ ls
